@@ -55,6 +55,7 @@ RUN mkdir -p /zeroclaw-data/.zeroclaw /zeroclaw-data/workspace && \
         '[gateway]' \
         'host = "0.0.0.0"' \
         'allow_public_bind = true' \
+        'require_pairing = false' \
         > /zeroclaw-data/.zeroclaw/config.toml && \
     chown -R 65534:65534 /zeroclaw-data
 
