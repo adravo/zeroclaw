@@ -48,8 +48,8 @@ RUN cargo build --release --locked && \
 RUN mkdir -p /zeroclaw-data/.zeroclaw /zeroclaw-data/workspace && \
     printf '%s\n' \
         'api_key = ""' \
-        'default_provider = "openrouter"' \
-        'default_model = "anthropic/claude-sonnet-4-20250514"' \
+        'default_provider = "anthropic"' \
+        'default_model = "claude-sonnet-4-20250514"' \
         'default_temperature = 0.7' \
         '' \
         '[gateway]' \
